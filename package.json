@@ -1,0 +1,17 @@
+{
+  "name": "playwright_1.32_webkit_16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "@playwright/test@1.23.4": "pnpm i -D  @playwright/test@1.23.4",
+    "playwright_install": "npx playwright install webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.23.4"
+  }
+}
